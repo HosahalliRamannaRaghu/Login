@@ -32,7 +32,11 @@ public class Generic_launch {
 		if(status==2 || status==3)
 		{
 			Screenshot.snapshot(driver,tcname);
+			
+			System.out.println("Screenshot Done");
 		}
+		
+		
 		
 		driver.quit();
 	}
