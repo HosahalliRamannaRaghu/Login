@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8303" started-at="2020-07-31T07:16:46Z" finished-at="2020-07-31T07:16:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8303" started-at="2020-07-31T07:16:46Z" finished-at="2020-07-31T07:16:54Z">
+      <class name="testscript.Testlogin">
+        <test-method status="PASS" signature="Open_Appln()[pri:0, instance:testscript.Testlogin@6bdf28bb]" name="Open_Appln" is-config="true" duration-ms="5574" started-at="2020-07-31T12:46:46Z" finished-at="2020-07-31T12:46:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Appln -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testscript.Testlogin@6bdf28bb]" name="login" duration-ms="1341" started-at="2020-07-31T12:46:52Z" finished-at="2020-07-31T12:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Close_Appln(org.testng.ITestResult)[pri:0, instance:testscript.Testlogin@6bdf28bb]" name="Close_Appln" is-config="true" duration-ms="1371" started-at="2020-07-31T12:46:53Z" finished-at="2020-07-31T12:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=Testlogin.login()[pri:0, instance:testscript.Testlogin@6bdf28bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Appln -->
+      </class> <!-- testscript.Testlogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

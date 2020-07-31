@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <packages>
+      <package name="testscript"/>
+    </packages>
+    <classes>
+      <class name="testscript.Dependencies"/>
+      <class name="testscript.Testlogin"/>
+      <class name="testscript.Dependencies"/>
+      <class name="testscript.Testlogin"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="testscript.Dependencies">
+        <methods>
+          <include name="sentitems"/>
+          <include name="compose"/>
+        </methods>
+      </class> <!-- testscript.Dependencies -->
+      <class name="testscript.Testlogin">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testscript.Testlogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
